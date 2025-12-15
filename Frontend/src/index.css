@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* ===== THEME VARIABLES ===== */
+/* 🔒 GLOBAL SCROLL LOCK */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+:root {
+  --bg: 248 250 252;
+  --panel: 255 255 255;
+  --border: 226 232 240;
+  --text: 15 23 42;
+  --muted: 100 116 139;
+  --accent: 37 99 235;
+}
+
+.dark {
+  --bg: 2 6 23;
+  --panel: 15 23 42;
+  --border: 51 65 85;
+  --text: 241 245 249;
+  --muted: 148 163 184;
+  --accent: 59 130 246;
+}
+
+body {
+  background-color: rgb(var(--bg));
+  color: rgb(var(--text));
+}
