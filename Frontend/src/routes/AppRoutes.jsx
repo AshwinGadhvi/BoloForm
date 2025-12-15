@@ -58,7 +58,7 @@ const AppRoutes = () => {
         />
 
         {/* Default */}
-        <Route path="*" element={<Dashboard />} />
+        <Route path="*" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );
